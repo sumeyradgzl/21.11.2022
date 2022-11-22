@@ -1,0 +1,29 @@
+SPA Nedir?
+Single Page Application, routing işleminin backend tarafından değilde JavaScript 
+tarafından istemci tarafında yapıldığı bir web uygulamasıdır. SPA , birçok bilginin aynı 
+kaldığı ve bir seferde yalnızca birkaç parçanın güncellenmesi gereken tek bir sayfadır.
+
+Angular Nedir?
+Açık kaynaklı JavaScript tabanlı MVC kitaplığıdır. Dinamik web uygulamaları için yapısal bir çerçevedir. Bu, HTML’yi bir şablon dili olarak 
+kullanmanıza ve HTML etiketlerini uygulamanızın bileşenlerini açıkça temsil edecek şekilde 
+genişletmenize olanak tanır. Temel amacı, tek bir site üzerinde dinamik olarak gelişme imkanı 
+sağlamaktır.
+
+Typescript Nedir?
+Typescript, JavaScript ile daha hızlı ve anlaşılır kod geliştirmemizi sağlayan bir ortamdır. Herhangi bir 
+tarayıcıda, herhangi bir JavaScript motorunda çalışan temiz, basit JavaScript kodudur.
+
+Değer ve Referans Tipleri
+Değer tipindeki veri tipleri ile bir değişken tanımlandığında değişkenin değeri Stack adı verilen bellek bölgesinde tutulur.
+Referans tipindeki veri tipinde bir değişken tanımlandığında ise değişkenin değeri Heap bölgesinde ve Heap bölgesindeki değeri gösteren adres 
+değeri ise Stack bölgesinde tutulur. Referans tipindeki bir değişkene bellekte yer ayırırken de “new” anahtar kelimesi kullanılır.
+
+Değer Tipleri -> string, number, boolean, null, undefined
+Referans Tipleri -> object, array, function
+
+Stack ve Heap 
+Stack ve Heap ram’in mantıksal bölümleridir.
+Stack LIFO mantığında çalışır. Yani son gelen ilk olarak çıkar.
+Stack’de değer tipleri, pointer ve adresler saklanırken Heap’de ise referans değerleri saklanır.
+Stack daha hızlıdır. Ulaşılmak istenen veriler ard arda sıralanmış olur.
+Heap ortak olarak kullanılır ve uygulama başlatıldığında başlar.
